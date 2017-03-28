@@ -8,14 +8,7 @@
 
 #ifndef solarsystem_hpp
 #define solarsystem_hpp
-
-// 创建图形窗口的基本宏
-#define WINDOW_X_POS 50
-#define WINDOW_Y_POS 50
-#define WIDTH 700
-#define HEIGHT 700
-
-#endif /* solarsystem_hpp */
+#include "stars.hpp"
 
 // 使用 GLUT 的基本头文件
 #ifndef _glut_
@@ -23,9 +16,24 @@
 #include <GLUT/glut.h>
 #endif
 
-// 用于注册 GLUT 的回调
-void onDisplay(void);
-void onUpdate(void);
-void onKeyboard(unsigned char key, int x, int y);
+#define STARS_NUM 10
 
-int main(int argc, char*  argv[]);
+class SolarSystem{
+public:
+    SolarSystem();
+    ~SolarSystem();
+    
+    void onDisplay();
+    void onUpdate();
+    void onKeyboard(unsigned char key, int x, int y);
+    
+private:
+    Star* stars[STARS_NUM];
+    
+    // 定义观察视角的参数
+    GLdouble viewX, viewY, viewZ;
+    GLdouble centerX, centerY, centerZ;
+    GLdouble upX, upY, upZ;
+};
+
+#endif /* solarsystem_hpp */
