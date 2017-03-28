@@ -9,15 +9,11 @@
 #ifndef stars_hpp
 #define stars_hpp
 
-#include <stdio.h>
-
-#endif /* stars_hpp */
-
 // 使用 GLUT 的基本头文件
 #ifndef _glut_
 #define _glut_
 #include <GLUT/glut.h>
-#endif
+#endif /* _glut_ */
 
 class Star
 {
@@ -80,3 +76,5 @@ public:
         drawStar();
     }
 };
+
+#endif /* stars_hpp */
