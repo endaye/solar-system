@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB4EC6081E8AC2D000A65BC6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC6061E8AC2D000A65BC6 /* main.cpp */; };
 		FB6C95721E8AB5BE0059FD48 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6C95711E8AB5BE0059FD48 /* GLUT.framework */; };
 		FB6C95741E8AB5C40059FD48 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6C95731E8AB5C40059FD48 /* OpenGL.framework */; };
 		FB6C95771E8AB8DC0059FD48 /* solarsystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB6C95751E8AB8DC0059FD48 /* solarsystem.cpp */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB4EC6061E8AC2D000A65BC6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FB6C95661E8AB1F80059FD48 /* solar-system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "solar-system"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6C95711E8AB5BE0059FD48 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		FB6C95731E8AB5C40059FD48 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -72,6 +74,7 @@
 				FB6C95761E8AB8DC0059FD48 /* solarsystem.hpp */,
 				FB6C95781E8ABCD10059FD48 /* stars.cpp */,
 				FB6C95791E8ABCD10059FD48 /* stars.hpp */,
+				FB4EC6061E8AC2D000A65BC6 /* main.cpp */,
 			);
 			path = "solar-system";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				FB6C95771E8AB8DC0059FD48 /* solarsystem.cpp in Sources */,
 				FB6C957A1E8ABCD10059FD48 /* stars.cpp in Sources */,
+				FB4EC6081E8AC2D000A65BC6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +277,7 @@
 				FB6C956F1E8AB1F80059FD48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
