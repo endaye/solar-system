@@ -9,6 +9,7 @@
 #ifndef solarsystem_hpp
 #define solarsystem_hpp
 #include "stars.hpp"
+#include <stdlib.h>
 
 // 使用 GLUT 的基本头文件
 #ifndef _glut_
