@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB6C95721E8AB5BE0059FD48 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6C95711E8AB5BE0059FD48 /* GLUT.framework */; };
+		FB6C95741E8AB5C40059FD48 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6C95731E8AB5C40059FD48 /* OpenGL.framework */; };
+		FB6C95771E8AB8DC0059FD48 /* solarsystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB6C95751E8AB8DC0059FD48 /* solarsystem.cpp */; };
+		FB6C957A1E8ABCD10059FD48 /* stars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB6C95781E8ABCD10059FD48 /* stars.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB6C95641E8AB1F80059FD48 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB6C95661E8AB1F80059FD48 /* solar-system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "solar-system"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6C95711E8AB5BE0059FD48 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		FB6C95731E8AB5C40059FD48 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		FB6C95751E8AB8DC0059FD48 /* solarsystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = solarsystem.cpp; sourceTree = "<group>"; };
+		FB6C95761E8AB8DC0059FD48 /* solarsystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = solarsystem.hpp; sourceTree = "<group>"; };
+		FB6C95781E8ABCD10059FD48 /* stars.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stars.cpp; sourceTree = "<group>"; };
+		FB6C95791E8ABCD10059FD48 /* stars.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stars.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB6C95631E8AB1F80059FD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6C95741E8AB5C40059FD48 /* OpenGL.framework in Frameworks */,
+				FB6C95721E8AB5BE0059FD48 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB6C955D1E8AB1F80059FD48 = {
+			isa = PBXGroup;
+			children = (
+				FB6C95681E8AB1F80059FD48 /* solar-system */,
+				FB6C95671E8AB1F80059FD48 /* Products */,
+				FB6C95701E8AB5BE0059FD48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB6C95671E8AB1F80059FD48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB6C95661E8AB1F80059FD48 /* solar-system */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB6C95681E8AB1F80059FD48 /* solar-system */ = {
+			isa = PBXGroup;
+			children = (
+				FB6C95751E8AB8DC0059FD48 /* solarsystem.cpp */,
+				FB6C95761E8AB8DC0059FD48 /* solarsystem.hpp */,
+				FB6C95781E8ABCD10059FD48 /* stars.cpp */,
+				FB6C95791E8ABCD10059FD48 /* stars.hpp */,
+			);
+			path = "solar-system";
+			sourceTree = "<group>";
+		};
+		FB6C95701E8AB5BE0059FD48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB6C95731E8AB5C40059FD48 /* OpenGL.framework */,
+				FB6C95711E8AB5BE0059FD48 /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB6C95651E8AB1F80059FD48 /* solar-system */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6C956D1E8AB1F80059FD48 /* Build configuration list for PBXNativeTarget "solar-system" */;
+			buildPhases = (
+				FB6C95621E8AB1F80059FD48 /* Sources */,
+				FB6C95631E8AB1F80059FD48 /* Frameworks */,
+				FB6C95641E8AB1F80059FD48 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "solar-system";
+			productName = "solar-system";
+			productReference = FB6C95661E8AB1F80059FD48 /* solar-system */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB6C955E1E8AB1F80059FD48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yuancheng Zhang";
+				TargetAttributes = {
+					FB6C95651E8AB1F80059FD48 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y3AT3VS79A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FB6C95611E8AB1F80059FD48 /* Build configuration list for PBXProject "solar-system" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB6C955D1E8AB1F80059FD48;
+			productRefGroup = FB6C95671E8AB1F80059FD48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB6C95651E8AB1F80059FD48 /* solar-system */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB6C95621E8AB1F80059FD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6C95771E8AB8DC0059FD48 /* solarsystem.cpp in Sources */,
+				FB6C957A1E8ABCD10059FD48 /* stars.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB6C956B1E8AB1F80059FD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FB6C956C1E8AB1F80059FD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB6C956E1E8AB1F80059FD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y3AT3VS79A;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB6C956F1E8AB1F80059FD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y3AT3VS79A;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB6C95611E8AB1F80059FD48 /* Build configuration list for PBXProject "solar-system" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6C956B1E8AB1F80059FD48 /* Debug */,
+				FB6C956C1E8AB1F80059FD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6C956D1E8AB1F80059FD48 /* Build configuration list for PBXNativeTarget "solar-system" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6C956E1E8AB1F80059FD48 /* Debug */,
+				FB6C956F1E8AB1F80059FD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB6C955E1E8AB1F80059FD48 /* Project object */;
+}
